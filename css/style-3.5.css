@@ -12,24 +12,50 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
-  padding: 0;
+  padding: 0px 0px 3px 0px;
   border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
   box-sizing: border-box;
 }
+
 @font-face {
-    font-family: 'ChunkFiveRegular';
-    src: url('Chunkfive-webfont.eot');
-    src: url('Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Chunkfive-webfont.woff') format('woff'),
-         url('Chunkfive-webfont.ttf') format('truetype'),
-         url('Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+    font-family: 'antonioregular';
+    src: url('/fonts/antonio-regular-webfont.eot');
+    src: url('/fonts/antonio-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/antonio-regular-webfont.woff2') format('woff2'),
+         url('/fonts/antonio-regular-webfont.woff') format('woff'),
+         url('/fonts/antonio-regular-webfont.ttf') format('truetype'),
+         url('/fonts/antonio-regular-webfont.svg#antonioregular') format('svg');
     font-weight: normal;
     font-style: normal;
+}
 
-}           
+@font-face {
+    font-family: 'allerbold';
+    src: url('/fonts/aller_bd-webfont.eot');
+    src: url('/fonts/aller_bd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/aller_bd-webfont.woff2') format('woff2'),
+         url('/fonts/aller_bd-webfont.woff') format('woff'),
+         url('/fonts/aller_bd-webfont.ttf') format('truetype'),
+         url('/fonts/aller_bd-webfont.svg#allerbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aller_lightregular';
+    src: url('/fonts/aller_lt-webfont.eot');
+    src: url('/fonts/aller_lt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/aller_lt-webfont.woff2') format('woff2'),
+         url('/fonts/aller_lt-webfont.woff') format('woff'),
+         url('/fonts/aller_lt-webfont.ttf') format('truetype'),
+         url('/fonts/aller_lt-webfont.svg#aller_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;		
+}
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{ 
     display:block;
 }
@@ -60,10 +86,10 @@ table {
 }
 /* Typography */
 h1 {
-    font-family: 'ChunkFiveRegular', Georgia, serif;
-    font-size: 2.5em; /* 40px / 16px */
+    font-family: 'allerbold', Georgia, serif;
+    font-size: 2.0em; /* 40px / 16px */
     line-height: 1.2em; /* 48px / 40px */
-    margin-bottom: .4em;/* 16px / 40px */
+    margin-bottom: .0em;/* 16px / 40px */
     margin-top: .4em; /* 16px / 40px */
 }
 header h1{
@@ -75,10 +101,10 @@ h1 img{
 
 h2 {
     border-bottom: 2px solid #dbdbdb;
-    font-family: 'ChunkFiveRegular', Georgia, serif;
-    font-size: 1.5em; /* 24px/16px */
+    font-family: 'allerbold', Georgia, serif;
+    font-size: 1.6em; /* 24px/16px */
     line-height: 1em;
-    margin-bottom: .666666667em; /* 16px / 24px */
+    margin-bottom: .3333333335em; /* 16px / 24px */
     margin-top: 1em;
 }
 figcaption,
@@ -87,6 +113,7 @@ figcaption,
 }
 blockquote {
     font-style: italic;
+	margin-top: 1em;
     margin-bottom: 1.5em;
     padding-left: 1em;
 }
@@ -120,7 +147,7 @@ a {
 body {
     background: #fff;
     color: #333;
-    font: 100%/1.5em Georgia, 'Times New Roman', serif;
+    font: 100%/1.3em 'aller_lightregular','Times New Roman', serif;
 }
 p,
 ul,
@@ -184,7 +211,7 @@ ul.tags li {
 }
 .related time {
     display: block;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'aller_lightregular', Arial, sans-serif;
     font-size: .625em;
     line-height: 1em;
     margin-bottom: 1.5em;
@@ -274,7 +301,7 @@ nav[role="navigation"] ul.hide{
 	        overflow: hidden
 	    }
 	    footer[role="contentinfo"] .top {
-	        color: #68B2B1);
+	        color: #68B2B1;
 	        float: right;
 			padding-right: 0;
 	    }
