@@ -144,6 +144,14 @@ a {
 /*
  * Base styles
  * --------------------------------------------------*/
+
+html {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #e4e8ea; /* Fills the page */
+  position: relative; /* Fix for absolute positioning */
+}
+
 body {
     background: #fff;
     color: #333;
