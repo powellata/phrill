@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe,
+overlayhtml, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -8,13 +8,13 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+figure, figcaption, figcaption-overlay, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
   padding: 0px 0px 3px 0px;
   border: 0;
-  font-size: 100%;
+  font-size:100%;
   font: inherit;
   vertical-align: top;
   box-sizing: border-box;
@@ -87,8 +87,8 @@ table {
 /* Typography */
 h1 {
     font-family: 'allerbold', Georgia, serif;
-    font-size: 2.0em; /* 40px / 16px */
-    line-height: 1.2em; /* 48px / 40px */
+    font-size: 1.4em; /* 40px / 16px */
+    line-height: 1.0em; /* 48px / 40px */
     margin-bottom: .0em;/* 16px / 40px */
     margin-top: .3em; /* 16px / 40px */
 }
@@ -102,19 +102,48 @@ h1 img{
 h2 {
     border-bottom: 2px solid #dbdbdb;
     font-family: 'allerbold', Georgia, serif;
-    font-size: 1.6em; /* 24px/16px */
+    font-size: 1.2em; /* 24px/16px */
     line-height: 1em;
     margin-bottom: .3333333335em; /* 16px / 24px */
     margin-top: 1em;
 }
+
+.img-overlay {
+	position:relative;
+}
+
+
+.strapline {
+    font-family: 'antonioregular', Georgia, serif;
+    font-size: 0.8em; /* 14px/8px */
+	color:#FFFFFF;
+    line-height: 1.2em;
+	margin-top: 5px;
+}
+
+.img-overlay {
+	position:relative;
+}
+figcaption, .crsl-item {
+	box-sizing: border-box;
+	position: absolute;
+	bottom: 0;
+	left: 0;;
+	width: 100%;
+	padding: 20px;
+	font-size: .9em;
+	color: #FFF;
+	background: rgba(0,0,0,.5);
+}
+
 figcaption,
 .top-stories li {
-    font-size: .75em; /* 12px / 16px */
+    font-size: .7em; /* 12px / 16px */
 }
 blockquote {
     font-style: italic;
 	margin-top: 1em;
-    margin-bottom: 1.5em;
+    margin-bottom: 0.1em;
     padding-left: 1em;
 }
 blockquote:before {
@@ -155,7 +184,7 @@ html {
 body {
     background: #fff;
     color: #333;
-    font: 100%/1.2em 'aller_lightregular','Times New Roman', serif;
+    font: 100%/1.0em 'aller_lightregular','Times New Roman', serif;
 }
 p,
 ul,
@@ -170,10 +199,10 @@ header{
 }
 
 #container {
-    margin: auto 0;
+    margin: auto auto 1.5em auto;
     overflow: hidden;
-    width: 95%;
-    padding: .625em 1.0548523% 1.5em; /* 10px/16px, 10px/948, 24px/16px */
+	width: 97%;
+	padding: 1.0548523%; /* 10px/948*/
 }
 
 
@@ -298,7 +327,7 @@ nav[role="navigation"] ul.hide{
     nav[role="navigation"] a {
         color: #ddd;
 		display: block;
-		font-size: 0.9em;
+		font-size: 0.6em;
         text-decoration: none;
     }
 	footer[role="contentinfo"] {
@@ -349,18 +378,61 @@ nav[role="navigation"] ul.hide{
 		    footer nav[role="navigation"] a {
 		        color: #fff
 				}
-/* 600px */
-@media all and (min-width: 37.5em) {
+
+/*360px*/
+@media all and (min-width: 22.5em) {
+	.strapline {
+font-family: 'antonioregular', Georgia, serif;
+font-size: 0.9em;
+line-height: 1.2em;
+margin-top: 5px;
+	}
+
+}
+
+/* 400px */
+@media all and (min-width: 25.0em) {
 	.slats li {
 	    float: left;
 		margin-right: 2.5316456%; /* 24px / 948px */
-		width: 31.6455696%; /* 300/948 */
+		width: 48.7341772%; /* 450/948 */
+	}
+	.slats li:nth-last-child(3) {
+	    margin-right: 0;
 	}
 	.slats li:last-child {
 	    margin-right: 0;
 	}
-	
+	.strapline {
+font-family: 'antonioregular', Georgia, serif;
+font-size: 0.1.em;
+line-height9: 1.2em;
+margin-top: 5x;
+	}
+
 }
+
+/*640px */
+@media all and (min-width: 40.0em) {
+	.slats li {
+	    float: left;
+		margin-right: 2.5316456%; /* 24px / 948px */
+		width: 23.1012658%; /* 300/948 */
+	}
+	.slats li:nth-last-child(3) {
+	    margin-right: 2.5316456%;
+	}
+	
+	.strapline {
+    	font-family: 'antonioregular', Georgia, serif;
+    	font-size: 1.2em; /* 28px/21px */
+		margin-top: 5px;
+}
+	nav[role="navigation"] a {
+		font-size: 0.7em;
+}
+}
+
 /* 860px */
 @media all and (min-width: 53.75em) {
 	aside{

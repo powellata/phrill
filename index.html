@@ -4,15 +4,22 @@
     <title>Phrill News</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width" />
-    <meta name="description" content="Phrill. Hectic news for a dimensionaly different world" />
+    <meta name="description" content="Phrill. Hectic news delivered from a dimensionaly different world" />
 <meta name="keywords" content="" />
 <meta name="robots" content="index, follow" />
 
-    <link rel="stylesheet" href="css/style-3.5.css" />
+    <link rel="stylesheet" href="css/style-3.53.css" />
 	<!--[if (lt IE 9) & (!IEMobile)]>
 	<link rel="stylesheet" href=""/css/ie-2.css" media="all">
 	<![endif]-->
-    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Scripts -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/responsiveCarousel.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($){
+	$('.crsl-items').carousel({ autoRotate: 4000, visible: 3, speed: 800, itemMinWidth: 280, itemMargin: 0 });
+});
+</script>
 
 <link rel="shortcut icon" href="favicon.ico">
 <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png">
@@ -44,31 +51,74 @@
                  <li><a href="#">Celebrity</a></li>
                  <li><a href="#">Music</a></li>
                  <li><a href="#">Football</a></li>
-                 <li><a href="#">Technology</a></li>
+                 <li><a href="/upload.html">Upload</a></li>
              </ul>
          </div>
      </nav>
     <header role="banner">
-        <div class="inner">
-           <h1 class="logo"><a href="#"><img src="images/logo_lg.png" alt="Phrill" height="85" /></a></h1>           <h3 font style="color:#FFF; margin-left: 10px;">
-           
-         HECTIC NEWS FOR A DIMENSIONALLY&nbsp;DIFFERENT&nbsp;WORLD</h3>
-  		
+<div class="inner">
+           <h1 class="logo" style="margin-top: 0px; margin-left: 15px; margin-right: 5px; float:left;">
+           <a href="#"><img src="images/logo_lg.png" alt="Phrill" height="50"></a></h1> 
+           <h1 class="strapline">  
+         HECTIC NEWS COMING FROM A&nbsp;DIMENSIONALLY&nbsp;DIFFERENT&nbsp;WORLD
+  		</strapline>
         </div>
  </header>
- 
-        <!-- /.inner -->
+ <div class="crsl-items" style="width: 100%; overflow: scroll;">
+	
+     <div class="crsl-wrap" style="width: 960px; margin-left: -240px;">
+         <figure class="crsl-item crsl-active" style="position: relative; float: left; overflow: hidden; height: auto; width: 240px; margin-right: 0px; padding: 0px;">
+			    <img src="img/nature.jpg" alt="Feature 1" width="530" height="345" class="wide-image" style="display: block; width: 100%; height: auto;"> 
+     
+              <figcaption>LIBERIA<br>Hope against hope in the battle against Ebola         
+		</figcaption></figure>          
+
+         <figure class="crsl-item crsl-active" style="position: relative; float: left; overflow: hidden; height: auto; width: 240px; margin-right: 0px; padding: 0px;">
+			    <img src="img/abstract.jpg" alt="Feature 2" width="530" height="345" class="wide-image" style="display: block; width: 100%; height: auto;">
+               
+              <figcaption>HONG KONG<br>They came, they saw and perhaps, people now believe, they may conquer
+		</figcaption></figure> 
+        
+
+         <figure class="crsl-item crsl-active" style="position: relative; float: left; overflow: hidden; height: auto; width: 240px; margin-right: 0px; padding: 0px;">
+			    <img src="img/sports.jpg" alt="Feature 3" width="530" height="345" class="wide-image" style="display: block; width: 100%; height: auto;">
+               
+              <figcaption>IRAN<br>The nuclear argument rages as the West demands to know answers
+		</figcaption></figure> 
+
+         <figure class="crsl-item crsl-active" style="position: relative; float: left; overflow: hidden; height: auto; width: 240px; margin-right: 0px; padding: 0px;">
+			    <img src="img/other.jpg" alt="Feature 4" width="530" height="345" class="wide-image" style="display: block; width: 100%; height: auto;">
+              
+              <figcaption>UNITED STATES<br>Changing the taxi business - and perhaps the way we do a whole lot more
+		</figcaption></figure>  
+        </div>
+	</div>
+</div>
+
+<!-- /.inner -->
      
     <div id="container">
         <article class="main" role="main">
-            <h1>Preloading: The Enemies Within</h1>
-            <p class="summary">Health officials warn of an epidemic as the practice spreads to the middle-classes</p>
+            <h1>Chibok: between a rock and a hard place </h1>
+            <p class="summary">Beseiged by Boko Haram and unprotected by the Government what next</p>
             <!--<p class="articleInfo">By Ricky Boucher | <time>January 1, 2012</time></p>-->
             <section>
-				<img src="images/preloading.jpg" alt="preloading" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan felis quis nibh pretium tempus. Nullam quis rhoncus massa. Vivamus laoreet convallis sem ac dapibus. Donec varius congue sem ac molestie. Nam purus neque, tincidunt ut aliquam dapibus, dictum a magna. Curabitur sagittis mi et ante aliquet tristique vitae nec justo. Quisque id tellus et quam pharetra lacinia nec id eros. Praesent fermentum dui id tellus aliquam tincidunt. Suspendisse eu ante sed est vestibulum dictum at sit amet nulla. Sed sed leo at ante consequat ullamcorper. Fusce mattis, justo sed eleifend bibendum, nunc risus pharetra est, ut rutrum libero justo et leo. Maecenas felis orci, porttitor eu venenatis vel, posuere in arcu. Phasellus sagittis pretium purus, vel semper massa aliquet sit amet.</p>
-<p>In hac habitasse platea dictumst. Sed vitae libero et dui lobortis accumsan et non nisi. Suspendisse commodo purus vitae risus rutrum eget scelerisque erat vehicula. Nullam eu nunc purus. Nulla rutrum laoreet magna eu pharetra. In libero dolor, varius sed tempor quis, tempus a turpis. Nullam suscipit, nisi a cursus viverra, sapien dolor scelerisque mauris, auctor mattis leo ante auctor enim. Suspendisse nec sodales risus. Donec suscipit, justo eu tincidunt venenatis, metus odio rhoncus quam, mollis accumsan diam eros quis lectus.</p>
-<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean facilisis placerat dolor ut mattis. Duis vitae sem sapien. Vivamus orci mauris, ornare in fringilla vitae, pulvinar ut orci. Fusce pellentesque leo id arcu varius elementum. Vivamus id odio ac sapien pulvinar rutrum ut vitae libero. Nam eget rutrum mauris.</p>
+				<img src="img/bringbackourgirls_birthday1.jpg" alt="bringbackourgirls" />
+                <p>Following the recent attack by the Boko Haram on Chibok community which led to the dispersing of the villagers in that community, the Chibok community in Abuja has cried out for help to members of the public to assist their displaced people in setting up a camp in Abuja.</p>
+
+<p>Speaking at the #BringBackOurGirls sit-out in Abuja, the chairman of the Chibok community in Abuja, Tsambido Hosea-Abana said the members of his community, who were displaced by the insurgency were scattered all over the place and the leaders of the community were seeking assistance to erect a temporary camp for them in the Karu axis of the Federal Capital Territory.</p>
+
+<p>Hosea-Abana had revealed that some of the residents of the community remained unaccounted for, but noted that calm had returned to the attacked community.</p>
+
+<p>He frowned at President Barack Obama’s condemnation of Boko Haram’s attack on Chibok community and urged him to take action against the sect members as a world leader to save the situation in the north east.</p>
+
+<p>He also lashed out at the Federal Government for what he described as lack of seriousness in tackling the insurgency and bringing back the remaining 219 Chibok school girls abducted by the Boko Haram group. He contended that peace could be restored in the north east only by divine intervention.</p>
+
+<p>It would be recalled that the Boko Haram sect had attacked and reportedly captured the Chibok community recently before the military assisted by the Civilian Joint Task Force fought back and reclaimed it.</p>
+
+<p>The vice chairman of the Chibok community in Abuja, Mutah Nkeki had raised the alarm of the impending attack on the Chibok community, but nothing was done to protect the town and its people until the group struck. The community, who the insurgents forced out, have become parts of the displaced persons rooming the country as some of their means of livihood have been destroyed by the insurgents.</p>
+
+<p>The Chibok community has been on the spot light in the world after the Boko Haram sect attacked and abducted 276 girls from its Government Secondary School and up until now, the federal government and the security agencies are yet to rescue the remaining 219 students after 57 excaped on their own.</p>
 
             </section>
 			
@@ -91,8 +141,8 @@
             <section>
                 <h2>Tagged</h2>
                 <ul class="tags">
-                 <li><a href="#">World News</a></li>
-                 <li><a href="#">Celebrity</a></li>
+                 <li><a href="https://twitter.com/hashtag/bringbackourgirls">#BringBackOurGirls</a></li>
+                 <li><a href="https://twitter.com/hashtag/feelgoodstoryoftheday">#feelgoodstoryoftheday</a></li>
                  <li><a href="#">Music</a></li>
                  <li><a href="#">Football</a></li>
                  <li><a href="#">Techology</a></li>
@@ -108,47 +158,52 @@
 			</section>
         </aside>
 		<div class="more-stories">
-            <h2>More Stories</h2>
+            <h2>On the radar</h2>
             <ul class="slats">
                 <li class="group">
                     <a href="#">
-                        <img src="images/hotdogs.jpg" alt="hotdogs" />
+                        <img src="img/the-disappeared.jpg" alt="hotdogs" />
                         <h3>New York's biggest manhunt. Have you seen this meal?</h3><br/>
                     </a>
                 </li>
                 <li class="group">
                     <a href="#">
-                        <img src="images/cows.jpg" alt="cows" />
+                        <img src="img/Zaid_Abu_Ein.jpg" alt="cows" />
                         <h3>What have cows got to confess?</h3><br/>
                     </a>
                 </li>
                 <li class="group">
                     <a href="#">
-                        <img src="images/lifts.jpg" alt="lifts" />
+                        <img src="img/waterboarding.jpg" alt="lifts" />
                         <h3>The unwritten lift etiquette of monks</h3><br/>
                     </a>
                 </li>    
+                                <li class="group">
+                    <a href="#">
+                        <img src="img/nyaope.jpg" alt="lifts" />
+                        <h3>The unwritten lift etiquette of monks</h3><br/>
+                    </a>
+                </li> 
             </ul>
         </div>
 		
     </div><!-- /#container -->
     <footer role="contentinfo">
-        <div class="inner">
-            <nav role="navigation">
-                <ul>
+         <nav role="navigation">
+         <div class="inner">
+			 <a href="#nav" class="nav-collapse" id="nav-collapse">Menu</a> 
              <ul class="nav" id="nav">
                  <li class="active"><a href="#">Home</a></li>
                  <li><a href="#">World News</a></li>
                  <li><a href="#">Celebrity</a></li>
                  <li><a href="#">Music</a></li>
                  <li><a href="#">Football</a></li>
-                 <li><a href="#">TechNology</a></li>
-					<li class="top"><a href="#top">Back to Top</a></li>
-                </ul>
-            </nav>
-        </div><!-- /.inner -->
+                 <li><a href="/upload.html">Upload</a></li>
+             </ul>
+         </div>
+     </nav><!-- /.inner -->
     </footer>
-<script type="text/javascript" src="yass.js"></script>
+<script type="text/javascript" src="js/yass.js"></script>
 </body>
 </html>
 
