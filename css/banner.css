@@ -1,0 +1,146 @@
+overlayhtml, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, figcaption-overlay, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video  
+
+@font-face {
+    font-family: 'antonioregular';
+    src: url('/fonts/antonio-regular-webfont.eot');
+    src: url('/fonts/antonio-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/antonio-regular-webfont.woff2') format('woff2'),
+         url('/fonts/antonio-regular-webfont.woff') format('woff'),
+         url('/fonts/antonio-regular-webfont.ttf') format('truetype'),
+         url('/fonts/antonio-regular-webfont.svg#antonioregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'allerbold';
+    src: url('/fonts/aller_bd-webfont.eot');
+    src: url('/fonts/aller_bd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/aller_bd-webfont.woff2') format('woff2'),
+         url('/fonts/aller_bd-webfont.woff') format('woff'),
+         url('/fonts/aller_bd-webfont.ttf') format('truetype'),
+         url('/fonts/aller_bd-webfont.svg#allerbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aller_lightregular';
+    src: url('/fonts/aller_lt-webfont.eot');
+    src: url('/fonts/aller_lt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/aller_lt-webfont.woff2') format('woff2'),
+         url('/fonts/aller_lt-webfont.woff') format('woff'),
+         url('/fonts/aller_lt-webfont.ttf') format('truetype'),
+         url('/fonts/aller_lt-webfont.svg#aller_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;		
+}
+
+
+/* Typography */
+h1.banner {
+    font-family: 'allerbold', Georgia, serif;
+    font-size: 1.4em; /* 40px / 16px */
+    line-height: 1.0em; /* 48px / 40px */
+    margin-bottom: .0em;/* 16px / 40px */
+    margin-top: .3em; /* 16px / 40px */
+}
+h1.strapline.banner {
+    font-family: 'allerbold', Georgia, serif;
+    font-size: 1.4em; /* 40px / 16px */
+    line-height: 1.0em; /* 48px / 40px */
+    margin-bottom: .0em;/* 16px / 40px */
+    margin-top: .3em; /* 16px / 40px */
+}
+header.banner h1{
+	margin-bottom: 0;
+}
+
+h2.banner {
+    border-bottom: 2px solid #dbdbdb;
+    font-family: 'allerbold', Georgia, serif;
+    font-size: 1.2em; /* 24px/16px */
+    line-height: 1em;
+    margin-bottom: .3333333335em; /* 16px / 24px */
+    margin-top: 1em;
+}
+
+header{
+	background: #68B2B1;
+    -moz-box-shadow: 0px 4px 0px 0px rgba(0,0,0,.5); /* FF3.5 - 3.6 */
+    -webkit-box-shadow: 0px 4px 0px 0px rgba(0,0,0,.5); /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    box-shadow: 0px 4px 0px 0px rgba(0,0,0,.5); /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
+}
+
+
+.inner.banner {
+    margin: auto;
+    overflow: hidden;
+    width: 95%;
+	padding: 0 1.0548523%;
+}
+
+/
+/*360px*/
+@media all and (min-width: 22.5em) {
+	.strapline.banner {
+font-family: 'antonioregular', Georgia, serif;
+font-size: 0.9em;
+line-height: 1.2em;
+margin-top: 5px;
+	}
+
+}
+
+/* 400px */
+@media all and (min-width: 25.0em) {
+
+	.strapline.banner {
+font-family: 'antonioregular', Georgia, serif;
+font-size: 0.1.em;
+line-height9: 1.2em;
+margin-top: 5x;
+	}
+
+}
+
+/*640px */
+@media all and (min-width: 40.0em) {
+}
+	
+	.strapline.banner {
+    	font-family: 'antonioregular', Georgia, serif;
+    	font-size: 1.2em; /* 28px/21px */
+		margin-top: 5px;
+}
+	nav[role="navigation"] a {
+		font-size: 0.7em;
+}
+}
+
+/* 860px */
+@media all and (min-width: 53.75em) {
+
+
+}
+/* 940px */
+@media all and (min-width: 58.75em) {
+	.main {
+
+}
+/* 1300px */
+@media all and (min-width: 81.25em) {
+}
+}
