@@ -10,7 +10,15 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, figcaption-overlay, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video  
+time, mark, audio, video  {
+  margin: 0;
+  padding: 0px 0px 3px 0px;
+  border: 0;
+  font-size:100%;
+  font: inherit;
+  vertical-align: top;
+  box-sizing: border-box
+}
 
 @font-face {
     font-family: 'antonioregular';
@@ -57,13 +65,7 @@ h1.banner {
     margin-bottom: .0em;/* 16px / 40px */
     margin-top: .3em; /* 16px / 40px */
 }
-h1.strapline.banner {
-    font-family: 'allerbold', Georgia, serif;
-    font-size: 1.4em; /* 40px / 16px */
-    line-height: 1.0em; /* 48px / 40px */
-    margin-bottom: .0em;/* 16px / 40px */
-    margin-top: .3em; /* 16px / 40px */
-}
+
 header.banner h1{
 	margin-bottom: 0;
 }
@@ -99,10 +101,18 @@ h1 img{
 	padding: 0 1.0548523%;
 }
 
+.strapline {
+    font-family: 'antonioregular', Georgia, serif;
+    font-size: 0.8em; /* 14px/8px */
+	color:#FFFFFF;
+    line-height: 1.2em;
+	margin-top: 5px;
+}
+
 /
 /*360px*/
 @media all and (min-width: 22.5em) {
-	.strapline.banner {
+	.strapline {
 font-family: 'antonioregular', Georgia, serif;
 font-size: 0.9em;
 line-height: 1.2em;
@@ -114,12 +124,13 @@ margin-top: 5px;
 /* 400px */
 @media all and (min-width: 25.0em) {
 
-	.strapline.banner {
+	.strapline {
 font-family: 'antonioregular', Georgia, serif;
 font-size: 0.1.em;
 line-height9: 1.2em;
 margin-top: 5x;
 	}
+
 
 }
 
@@ -127,11 +138,12 @@ margin-top: 5x;
 @media all and (min-width: 40.0em) {
 }
 	
-	.strapline.banner {
+	.strapline {
     	font-family: 'antonioregular', Georgia, serif;
     	font-size: 1.2em; /* 28px/21px */
 		margin-top: 5px;
 }
+	
 	nav[role="navigation"] a {
 		font-size: 0.7em;
 }
