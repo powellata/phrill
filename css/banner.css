@@ -94,10 +94,11 @@ h1 img{
 
 .strapline {
     font-family: 'antonioregular', Georgia, serif;
-    font-size: 0.8em; /* 14px/8px */
+    font-size: 1.2em; /* 14px/8px */
 	color:#FFFFFF;
     line-height: 1.2em;
-	margin-top: 5px;
+	margin-top: 0px;
+	padding-top: 16px;
 }
 
 /
@@ -107,7 +108,8 @@ h1 img{
 font-family: 'antonioregular', Georgia, serif;
 font-size: 0.9em;
 line-height: 1.2em;
-margin-top: 5px;
+margin-top: 0px;
+padding-top: 12px;
 	}
 
 }
@@ -117,9 +119,10 @@ margin-top: 5px;
 
 	.strapline {
 font-family: 'antonioregular', Georgia, serif;
-font-size: 0.1.em;
-line-height9: 1.2em;
-margin-top: 5x;
+font-size:1.0em;
+line-height: 1.2em;
+margin-top: 0px;
+padding-top: 12px;
 	}
 
 
@@ -132,7 +135,8 @@ margin-top: 5x;
 	.strapline {
     	font-family: 'antonioregular', Georgia, serif;
     	font-size: 1.2em; /* 28px/21px */
-		margin-top: 5px;
+		margin-top: 0px;
+		padding-top: 16px;
 }
 	
 	nav[role="navigation"] a {
@@ -147,7 +151,7 @@ margin-top: 5x;
 }
 /* 940px */
 @media all and (min-width: 58.75em) {
-	.main {
+	
 
 }
 /* 1300px */
