@@ -42,6 +42,12 @@ foreach($_FILES as $name => $value) {
     <!-- Bootstrap -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/html5imageupload.css" rel="stylesheet">
+      <style>
+.btn-success {
+color: #fff;
+background-color: #68B2B1;
+border-color: #68B2B1;
+}</style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -75,10 +81,16 @@ foreach($_FILES as $name => $value) {
 	      
 	      <div class="row">
 		    <div class="col-xs-12">
-		      <p class="text-center"><a href="/" class="btn btn-success"><i class="glyphicon glyphicon-chevron-left"></i> Back to homepage</a></p>
+		      <p class="text-center"><a href="upload.html" class="btn btn-success"><i class="glyphicon glyphicon-chevron-left"></i> Upload another image</a></p>
 		    </div>
 		  </div>
 	      
+            	      <div class="row">
+		    <div class="col-xs-12">
+		      <p class="text-center"><a href="/" class="btn btn-success"> Back to homepage</a></p>
+		    </div>
+		  </div>
+            
 	    </div>
 	    
 	   <!-- <div class="col-xs-6">
