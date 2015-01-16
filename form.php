@@ -41,8 +41,13 @@ foreach($_FILES as $name => $value) {
 
     <!-- Bootstrap -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/banner.css" rel="stylesheet">
     <link href="assets/css/html5imageupload.css" rel="stylesheet">
       <style>
+.btn {
+    font-size: 12px;
+}  
+	  
 .btn-success {
 color: #fff;
 background-color: #68B2B1;
@@ -64,7 +69,17 @@ border-color: #68B2B1;
     <![endif]-->
   </head>
   <body>
-    
+ <div class="inner.banner">
+           <header role="banner"  style="height: 62px;">  
+              
+           <h1 class="logo" style="margin-top: 5px; margin-left: 15px; margin-right: 5px; float:left;">
+           <a href="#"><img src="images/logo_lg.png" alt="Phrill" height="50"></a></h1> 
+            <h1 class="strapline">    
+         HECTIC NEWS COMING FROM A&nbsp;DIMENSIONALLY&nbsp;DIFFERENT&nbsp;WORLD
+        </strapline>   
+        </header>       
+ </div> 
+          
 	<div class="container">
 	  <div class="row">
 	    <div class="col-xs-12">
@@ -88,13 +103,13 @@ border-color: #68B2B1;
 	      
 	      <div class="row">
 		    <div class="col-xs-12">
-		      <p class="text-center"><a href="upload.html" class="btn btn-success"><i class="glyphicon glyphicon-chevron-left"></i> Upload another image</a></p>
+		      <p class="text-center"><a href="upload.html" class="btn btn-success"><!--<i class="glyphicon glyphicon-chevron-left"></i>-->Upload another image</a></p>
 		    </div>
 		  </div>
 	      
             	      <div class="row">
 		    <div class="col-xs-12">
-		      <p class="text-center"><a href="/" class="btn btn-success"> Back to homepage</a></p>
+		      <p class="text-center"><a href="/" class="btn btn-success">Back to homepage</a></p>
 		    </div>
 		  </div>
             
