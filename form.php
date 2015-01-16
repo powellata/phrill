@@ -35,7 +35,7 @@ foreach($_FILES as $name => $value) {
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PhrillImage upload</title>
+    <title>Phrill Image upload</title>
     
     <meta name="description" content="A HTML5 image upload plugin build with jQuery. Can drag and drop an image, crop it and change ratio." />
 
@@ -47,7 +47,14 @@ foreach($_FILES as $name => $value) {
 color: #fff;
 background-color: #68B2B1;
 border-color: #68B2B1;
-}</style>
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open > .dropdown-toggle.btn-success {
+    color: #FFF;
+    background-color: #4b9493;
+    border-color: #4b9493;
+}
+</style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
