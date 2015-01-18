@@ -111,36 +111,14 @@ ol {
     margin-bottom: 1em
 }
 
-/*320px*/
-@media all and (min-width: 20.0em) {
-	.strapline {
-font-family: 'antonioregular', Georgia, serif;
-font-size: 0.8em;
-line-height: 1.em;
-margin-top: 0px;
-padding-top: 14px;
-	}
-
-}
-
-/* 400px */
-@media all and (min-width: 25.0em) {
-
-	.strapline {
-font-family: 'antonioregular', Georgia, serif;
-font-size: 1.0em;
-line-height: 1.2em;
-margin-top: 0px;
-padding-top: 14px;
-	}
-}
 
 /*640px */
 @media all and (min-width: 40.0em) {
 
 	.strapline {
     	font-family: 'antonioregular', Georgia, serif;
-    	font-size: 1.2em; /* 28px/21px */
+    	font-size: 1.6em; /* 28px/21px */
+		line-height: 1.2em;
 		margin-top: 0px;
 		padding-top: 16px;
 }
