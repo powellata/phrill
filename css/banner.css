@@ -51,13 +51,6 @@ time, mark, audio, video  {
 
 
 /* Typography */
-h1.banner {
-    font-family: 'allerbold', Georgia, serif;
-    font-size: 1.4em; /* 40px / 16px */
-    line-height: 1.0em; /* 48px / 40px */
-    margin-bottom: .0em;/* 16px / 40px */
-    margin-top: .3em; /* 16px / 40px */
-}
 
 header.banner h1{
 	margin-bottom: 0;
@@ -117,15 +110,15 @@ ul,
 ol {
     margin-bottom: 1em
 }
-/
-/*360px*/
-@media all and (min-width: 22.5em) {
+
+/*320px*/
+@media all and (min-width: 20.0em) {
 	.strapline {
 font-family: 'antonioregular', Georgia, serif;
-font-size: 0.9em;
-line-height: 1.2em;
+font-size: 0.8em;
+line-height: 1.em;
 margin-top: 0px;
-padding-top: 12px;
+padding-top: 14px;
 	}
 
 }
@@ -135,19 +128,16 @@ padding-top: 12px;
 
 	.strapline {
 font-family: 'antonioregular', Georgia, serif;
-font-size:1.0em;
+font-size: 1.0em;
 line-height: 1.2em;
 margin-top: 0px;
-padding-top: 12px;
+padding-top: 14px;
 	}
-
-
 }
 
 /*640px */
 @media all and (min-width: 40.0em) {
-}
-	
+
 	.strapline {
     	font-family: 'antonioregular', Georgia, serif;
     	font-size: 1.2em; /* 28px/21px */
@@ -172,5 +162,4 @@ padding-top: 12px;
 }
 /* 1300px */
 @media all and (min-width: 81.25em) {
-}
 }
