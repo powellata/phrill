@@ -87,7 +87,7 @@ h1 img{
 
 .strapline {
     font-family: 'antonioregular', Georgia, serif;
-    font-size: 1.2em; /* 14px/8px */
+    font-size: 0.8em; /* 14px/8px */
 	font-weight: 100;
 	color:#FFFFFF;
     line-height: 1.2em;
@@ -119,7 +119,7 @@ ol {
 
 	.strapline {
     	font-family: 'antonioregular', Georgia, serif;
-    	font-size: 1.6em; /* 28px/21px */
+    	font-size: 1.0em; /* 28px/21px */
 		font-weight: 100;
 		line-height: 1.2em;
 		margin-top: 0px;
