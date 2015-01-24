@@ -52,6 +52,15 @@ time, mark, audio, video  {
 
 /* Typography */
 
+h1 {
+    font-family: 'allerbold', Georgia, serif;
+    font-size: 1.4em; /* 40px / 16px */
+    line-height: 1.0em; /* 48px / 40px */
+	margin-left: 1.4em; /* 40px / 16px */
+	margin-right: 1.4em; /* 40px / 16px */
+    margin-bottom: .0em;/* 16px / 40px */
+    margin-top: .3em; /* 16px / 40px */
+}
 header.banner h1{
 	margin-bottom: 0;
 }
@@ -63,6 +72,17 @@ h2.banner {
     line-height: 1em;
     margin-bottom: .3333333335em; /* 16px / 24px */
     margin-top: 1em;
+}
+
+sub{
+    font-family: 'antonioregular', Georgia, serif;
+    font-size: 1.0em; /* 40px / 16px */
+    line-height: 1.2em; /* 48px / 40px */
+	margin-left: 2.5em; /* 40px / 16px */
+	margin-right: auto; /* 40px / 16px */
+    margin-bottom: 0em;/* 16px / 40px */
+    margin-top: 0em; /* 16px / 40px */
+
 }
 
 header{
