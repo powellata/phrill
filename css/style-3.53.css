@@ -56,7 +56,7 @@ time, mark, audio, video {
     font-style: normal;		
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{ 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, section{ 
     display:block;
 }
 blockquote:before,
