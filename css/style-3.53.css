@@ -56,7 +56,7 @@ time, mark, audio, video {
     font-style: normal;		
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{ 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, section{ 
     display:block;
 }
 blockquote:before,
@@ -267,7 +267,7 @@ ul.tags li {
 .inner {
     margin: auto;
     overflow: hidden;
-    width: 98%;
+    width: 95%;
 	padding: 0 1.0548523%;
 }
 
@@ -284,7 +284,6 @@ ul.tags li {
 #nav-collapse.active{
 	display: block;
 }
-
  
 nav[role="navigation"] {
     background-color: #68B2B1;
@@ -388,6 +387,7 @@ font-size: 0.9em;
 line-height: 1.2em;
 margin-top: 5px;
 	}
+
 }
 
 /* 400px */
@@ -410,6 +410,7 @@ line-height9: 1.2em;
 margin-top: 5x;
 	}
 
+}
 
 /*640px */
 @media all and (min-width: 40.0em) {
@@ -430,8 +431,7 @@ margin-top: 5x;
 	nav[role="navigation"] a {
 		font-size: 0.7em;
 }
-	.nav-collapse 
-
+}
 
 /* 860px */
 @media all and (min-width: 53.75em) {
