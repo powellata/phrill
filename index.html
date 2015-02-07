@@ -11,6 +11,17 @@
 	<!--[if (lt IE 9) & (!IEMobile)]>
 	<link rel="stylesheet" href=""/css/ie-2.css" media="all">
 	<![endif]--> 
+             <script type="text/javascript">
+$(function() {
+    $("#menu")
+        .menu({
+           collapsible: true,
+           active: false,
+           autoHeight: false
+        })
+        .show();
+  });
+    </script>
 
 <link rel="shortcut icon" href="favicon.ico">
 <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png">
@@ -35,8 +46,9 @@
 <body id="top">
      <nav role="navigation">
          <div class="inner">
-			 <a href="#nav" class="nav-collapse" id="nav-collapse">Menu</a> 
+			 <a href="#nav" class="nav-collapse" id="nav-collapse" >Menu</a> 
              <ul class="nav" id="nav">
+
                  <li class="active"><a href="#">Home</a></li>
                  <li><a href="#">World News</a></li>
                  <li><a href="#">Celebrity</a></li>
@@ -195,7 +207,7 @@
      </nav><!-- /.inner -->
     </footer>
 <!-- Scripts -->
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/yass.js"></script>
 <script type="text/javascript" src="js/responsiveCarousel.js"></script>
 <script type="text/javascript">
