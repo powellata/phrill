@@ -327,8 +327,8 @@ nav[role="navigation"] ul.hide{
         margin: 0;
     }
 	nav[role="navigation"] li{
-		padding: .2em 2em .2em 0;
-		border-top: 1px solid #333;
+		padding: .2em 2em 0 0;
+		border-top: 1px solid #65BFBF;
 		
 	}
     nav[role="navigation"] a {
