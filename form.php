@@ -73,9 +73,9 @@ border-color: #68B2B1;
            <header role="banner"  style="height: 62px;">  
               
            <h1 class="logo" style="margin-top: 5px; margin-left: 15px; margin-right: 5px; float:left;">
-           <a href="#"><img src="images/logo_lg.png" alt="Phrill" height="50"></a></h1> 
+           <a href="#"><img src="images/logo-newsflash.png" alt="Phrill" height="50"></a></h1> 
             <h1 class="strapline">    
-         HECTIC NEWS COMING FROM A&nbsp;DIMENSIONALLY&nbsp;DIFFERENT&nbsp;WORLD
+         HECTIC REPORTS FROM A&nbsp;CHANGING&nbsp;WORLD
         </strapline>   
         </header>       
  </div> 
